@@ -1,0 +1,24 @@
+name: flutter_application_1
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"  # Adicione esta linha para definir a versão mínima do SDK do Dart
+
+flutter:
+  uses-material-design: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Atualize para a versão mais recente compatível
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^4.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
